@@ -33,9 +33,26 @@ h1 {
   margin-top: 10vh;
 }
 
+.hills {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 23vh;
+  background-image: url('../../images/pattern-hills.svg');
+  background-size: cover;
+  background-position: top center;
+}
+
 @media screen and (max-width: 460px) {
   h1 {
     font-size: 1.6rem;
     margin-top: 12vh;
+  }
+
+  .hills {
+    height: 30vh;
+    background-size: ste;
+    background-position-x: 80%;
   }
 }

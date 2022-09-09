@@ -9,6 +9,7 @@ export const App = () => {
         <h1>We're launching soon</h1>
         <CountDown />
         <SocialIcons />
+        <div className="hills" />
       </main>
     </>
   );
