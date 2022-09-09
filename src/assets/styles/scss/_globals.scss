@@ -12,7 +12,7 @@ body {
   font-size: 0.8rem;
   letter-spacing: 0.3rem;
   text-align: center;
-  color: hsl(237, 18%, 59%);
+  color: $GrayishBlue;
 }
 
 main {
@@ -22,26 +22,15 @@ main {
   align-items: center;
   height: calc(100vh - 3rem);
   background-image: url(../../images/bg-stars.svg);
-  background-color: hsl(235, 16%, 14%);
+  background-color: $darkBlue;
   background-size: contain;
   padding: 1.5rem;
 }
 
 h1 {
   font-size: 1.8rem;
-  color: hsl(0, 0%, 100%);
+  color: $White;
   margin-top: 10vh;
-}
-
-a {
-  color: hsl(237, 18%, 59%);
-  fill: hsl(237, 18%, 59%);
-  transition: 3ms;
-
-  &:hover {
-    color: hsl(345, 95%, 68%);
-    fill: hsl(345, 95%, 68%);
-  }
 }
 
 @media screen and (max-width: 460px) {

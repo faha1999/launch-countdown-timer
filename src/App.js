@@ -1,5 +1,6 @@
 import React from 'react';
 import { CountDown } from './components/CountDown';
+import { SocialIcons } from './components/SocialIcons';
 
 export const App = () => {
   return (
@@ -7,6 +8,7 @@ export const App = () => {
       <main>
         <h1>We're launching soon</h1>
         <CountDown />
+        <SocialIcons />
       </main>
     </>
   );
