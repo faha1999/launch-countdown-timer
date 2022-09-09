@@ -1,5 +1,6 @@
 import React from 'react';
 import { CountDown } from './components/CountDown';
+import { Footer } from './components/Footer';
 import { SocialIcons } from './components/SocialIcons';
 
 export const App = () => {
@@ -10,6 +11,7 @@ export const App = () => {
         <CountDown />
         <SocialIcons />
         <div className="hills" />
+        <Footer />
       </main>
     </>
   );
